@@ -12,3 +12,4 @@ public class DemoApplication {
     @GetMapping("/hello") String hello() { return "Spring REST works!"; }
     @GetMapping("/health") String health() { return "UP"; }
 }
+// Test change
