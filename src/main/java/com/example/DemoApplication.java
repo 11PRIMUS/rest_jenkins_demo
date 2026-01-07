@@ -9,7 +9,7 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
-    @GetMapping("/hello") String hello() { return "Spring REST works!"; }
+    @GetMapping("/hello") String hello() { return "tweak v2"; }
     @GetMapping("/health") String health() { return "UP"; }
 }
 // Test change
